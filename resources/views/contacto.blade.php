@@ -1,5 +1,4 @@
-@extends ('layouts.app')
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -10,17 +9,11 @@
     <script src="main.js"></script>
 </head>
 <body>
-Hola mundo desde vista
-@section('contenido')
-@endsection
-    
+<!--
+HOLA{{$nombre}}    -->
+<a href="{{action('SitioController@bienvenida')}}''">bienvenida</a>
+<a href="{{route('contacto')}}''">bienvenida</a>
+
+
 </body>
-</html>
-
-
-
-
-
-
-
-
+</html>> 

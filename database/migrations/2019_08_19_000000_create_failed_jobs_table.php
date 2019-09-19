@@ -11,7 +11,7 @@ class CreateFailedJobsTable extends Migration
      *
      * @return void
      */
-    public function up()
+    public function up()  //procesamiento por lote; ejecutara todos los metodos up 
     {
         Schema::create('failed_jobs', function (Blueprint $table) {
             $table->bigIncrements('id');
@@ -28,7 +28,7 @@ class CreateFailedJobsTable extends Migration
      *
      * @return void
      */
-    public function down()
+    public function down()// "ctrl+z"; revertir creacion de tabla 
     {
         Schema::dropIfExists('failed_jobs');
     }
