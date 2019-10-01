@@ -16,3 +16,7 @@ php artisan key:generate
 
 
 npm install
+
+TUTORIAL QUE SIGO: 
+https://desarrolloweb.com/manuales/manual-laravel-5.html
+
